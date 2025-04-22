@@ -1,29 +1,57 @@
-# allo-rocket
+# Allo Rockets - Frontend Assignment
 
-This template should help get you started developing with Vue 3 in Vite.
+Proyek ini adalah aplikasi berbasis Vue.js untuk menampilkan, memfilter, dan menambahkan data roket dari SpaceX API.
 
-## Recommended IDE Setup
+## Halaman yang Tersedia
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+1. **Halaman Daftar Roket**  
+   Menampilkan daftar semua roket lengkap dengan gambar, nama, dan deskripsi.
 
-## Customize configuration
+   Fitur:
+   - Filter roket berdasarkan:
+     - Nama roket
+     - Negara asal
+     - Tahun penerbangan pertama
+   - Tambah roket baru secara lokal (data tidak disimpan permanen di API)
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+2. **Halaman Detail Roket**  
+   Menampilkan detail dari roket yang dipilih, meliputi:
+   - Gambar
+   - Nama
+   - Deskripsi
+   - Biaya peluncuran
+   - Negara
+   - Tanggal penerbangan pertama
+   - Gambar
 
-## Project Setup
+## Teknologi yang Digunakan
 
-```sh
-npm install
-```
+- Vue 3
+- Pinia (state management)
+- Vue Router (routing)
+- AXIOS 
+- Bootstrap (CSS)
+- Lucide (Icon)
+- SpaceX API (https://github.com/r-spacex/SpaceX-API)
 
-### Compile and Hot-Reload for Development
+## Cara Instalasi
 
-```sh
-npm run dev
-```
+1. Clone repository ini:
+   ```bash
+   git clone https://github.com/umarfaruqsyafar/allo-rockets.git
 
-### Compile and Minify for Production
+2. Masuk ke direktori
+   ```bash
+   cd allo-rockets
 
-```sh
-npm run build
-```
+3. Install dependensi:
+   ```bash
+   npm install
+4. Jalankan server pengembangan:
+   ```bash
+   npm run dev
+5. Buka di browser: Kunjungi http://localhost:5173 (atau sesuai alamat yang ditampilkan di terminal)
+
+
+
+
