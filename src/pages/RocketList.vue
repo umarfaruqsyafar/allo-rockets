@@ -1,6 +1,6 @@
 <template>
     <div class="container py-4">
-        <h1 class="mb-4">Rockets</h1>
+        <h1 class="mb-4">Rockets List</h1>
 
         <div v-if="rocketStore.loading">Loading rockets...</div>
         <div v-else-if="rocketStore.error">

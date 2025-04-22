@@ -4,7 +4,7 @@
         <div class="card-body">
             <h5 class="card-title">{{ rocket.name }}</h5>
             <p class="card-text">{{ rocket.description.slice(0, 100) }}...</p>
-            <router-link :to="`/rockets/${rocket.id}`" class="btn btn-primary btn-sm">
+            <router-link :to="`/rockets/${rocket.id}`" class="btn btn-primary w-100">
                 View Details
             </router-link>
         </div>
