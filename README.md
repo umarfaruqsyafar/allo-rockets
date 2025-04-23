@@ -52,6 +52,9 @@ Proyek ini adalah aplikasi berbasis Vue.js untuk menampilkan, memfilter, dan men
    npm run dev
 5. Buka di browser: Kunjungi http://localhost:5173 (atau sesuai alamat yang ditampilkan di terminal)
 
+Untuk melihat langsung hasil implementasi, silakan kunjungi:
+[https://rockets.updev-tech.com/]
+
 
 
 
